@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Juego de Piedra, Papel, Tijera</title>
+</head>
+<body class="container">
+    <header>
+        <h1>Juego de Piedra, Papel, Tijera</h1>
+    </header>
+    <main>
+        <section id="jugador">
+            <label for="nombre">Ingresa tu nombre:</label>
+            <input type="text" id="nombre" />
+            <button id="comenzar">Comenzar</button>
+        </section>
+        <section id="opciones">
+            <h2>Elige tu jugada:</h2>
+            <div class="opcion" id="piedra"><img src="piedra.png" alt="Piedra"></div>
+            <div class="opcion" id="papel"><img src="papel.png" alt="Papel"></div>
+            <div class="opcion" id="tijera"><img src="tijera.png" alt="Tijera"></div>
+        </section>
+        <section id="resultado">
+            <!-- Aquí se mostrará el resultado de cada partida -->
+        </section>
+        <button id="limpiarJuego">Limpiar</button>
+    </main>
+    <footer>
+        <p>&copy; 2023 TaniaMasset</p>
+    </footer>
+    <script src="piedraPapelTijeras.js"></script>
+</body>
+</html>
